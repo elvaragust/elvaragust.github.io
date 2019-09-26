@@ -7,3 +7,4 @@
    * [Verkefni 2.3](Verkefni_2/verkefni-23/)
    * [Verkefni 2.4](Verkefni_2/verkefni-24/)
 3. [Verkefni_3(Verkefni_3)
+
