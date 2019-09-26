@@ -1,7 +1,7 @@
 # 2019 Haust 
 ## Dæmi um tiltekt í geymslu og verkeni 1
 
-1. [Verkefni1](#)
+1. [Verkefni_1](#)
 2. Verkefni 2
    * [Verkefni 2.1 og 2.2](Verkenfi_2/verkefni-21/)
    * [Verkefni 2.3](verkefni-23)
