@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    border: 1.5px solid  rgb(219, 202, 121);
+    margin : auto;
+    max-width: 60em; /* 60em = 960px sem er gott a 1080 skja */
+    background-color: rgb(11, 16, 34);
+    color: rgb(219, 202, 121)
+}
+/*--GRID AREA -- */
+.haus {
+    grid-area: haus;
+    text-align: center;
+}
+.container {
+    grid-area: container;
+}
+.topnav {
+    grid-area: topnav;
+}
+.foot {
+    grid-area: foot;
+}
+/* dalkur i container*/
+.as1{
+    grid-area: as1;
+    border-right: 2px solid goldenrod;
+    padding-right: 2em; 
+}
+.as2 {
+    grid-area: as2;
+    border-left: 2px solid goldenrod;
+    padding-left: 2em;
+}
+.art1{
+    grid-area: art1;
+}
+/*-- Grid Template area --*/
+.content {
+    display:grid;
+    grid-gap: 1em;
+    padding: 3em;
+    text-align: center;
+    grid-template-areas:
+        "haus"   
+        "topnav"    
+        "container"
+        "foot"
+}
+.imgR {
+    float: center;
+     width: .1em;
+     padding-left: .5em
+     
+}
+/*-- innri tög i main--*/
+.container {
+    display:grid;
+    grid-gap: 1em;
+    grid-template-areas:
+        "art1 art1"
+         "as1 as2";
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 22px;
+}
+/*--flexbox --*/
+.topmenu, .footmenu {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    margin:4;
+    padding:2em;
+    background-color: rgba(11, 16, 34);
+}
+.topmenu li, .footmenu li {
+    list-style-type: none;
+}
